@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: c3cd2696af6d4e749b7b3390825e7f5d
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - DINNextLTW04-Light
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 530d0cf3da396b749a818c871fa2b953, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
