@@ -94,7 +94,7 @@ public class Player : MonoBehaviour
 
     private IEnumerator ResetAfterDelay()
     {
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(2);
         _rigidbody2D.position = _startPosition;
         _rigidbody2D.isKinematic = true;
         _rigidbody2D.velocity = Vector2.zero;

@@ -19,6 +19,7 @@ public class LevelController : MonoBehaviour
     {
         if (EnemiesAreAllDead())
             GoToNextLevel();
+        
     }
     //Advance to next Level
     //Make sure to add Levels to scene build settings
@@ -36,5 +37,11 @@ public class LevelController : MonoBehaviour
                 return false;
         }
         return true;
+    }
+
+    //Restart the Scene
+    public void Restart()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }

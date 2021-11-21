@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 3520744917695306153}
   - component: {fileID: 3520744917695305815}
   - component: {fileID: 6237072563328762812}
+  - component: {fileID: 7941904816606898137}
   m_Layer: 3
   m_Name: Orc
   m_TagString: Untagged
@@ -282,3 +283,20 @@ LineRenderer:
     generateLightingData: 0
   m_UseWorldSpace: 1
   m_Loop: 0
+--- !u!114 &7941904816606898137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3520744917695306157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 373e250af74e3e14e96807ed34db9146, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lives:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  livesRemaining: 3
